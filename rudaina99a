@@ -3,6 +3,9 @@ for user add producer
 read price_producer, category_producer
 IF (price_producer >=35 OR) then
 user will get free express shopping and delivery 
+user will get free express shopping and delivery
+ELSE IF (price_prod>=50 OR)
+user will get free delivery and descount 
 ELSE
 the user pay for customs and delivery 
 END IF
