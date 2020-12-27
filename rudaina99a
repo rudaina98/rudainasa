@@ -6,4 +6,9 @@ user will get free express shopping and delivery
 ELSE
 the user pay for customs and delivery 
 END IF
-END
+IF category_producer ="shoes"
+the user will receive a gift 
+ELSE
+The user will not receive a gift
+END IF
+END FOR 
